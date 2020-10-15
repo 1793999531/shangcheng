@@ -1,7 +1,3 @@
-// ;
-//     (function() {
-        
-//     })()
 ;(function() {
     
         
@@ -42,7 +38,7 @@
             var passwordVal = passwordInp.value;
             yanzhengkuang.style.display = "none";
             users[usernameVal] = passwordVal;
-            url = "http://localhost:8081/shangcheng/php/store.php?username=" + usernameVal + "&password=" + passwordVal;
+            url = xhr.baseUrl+"php/store.php?username=" + usernameVal + "&password=" + passwordVal;
             console.log(url)
             xhr.get(url, function(data) {
                 // console.log(data);
@@ -74,9 +70,6 @@
                     }, 1000);
                 } else {
                     document.getElementById("tishi").style.display = "inline-block";
-                    // setTimeout(() => {
-                    //     document.getElementById("tishi").style.display = "none";
-                    // }, 1000);
                 }
             })
         }

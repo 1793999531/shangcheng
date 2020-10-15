@@ -5,7 +5,7 @@
     var curPage = 1; //当前页
     var allPage; //所有页数
     var showProNum = 16;
-    xhr.get("http://localhost:8081/shangcheng/php/list.php", (data) => {
+    xhr.get(xhr.baseUrl+"php/list.php", (data) => {
             productData = data.data;
             // console.log(productData);
             allPage = Math.ceil(productData.length / showProNum);

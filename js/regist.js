@@ -30,7 +30,7 @@ username.onblur = function () {
     }
 
     // 发送ajax请求 检测这个用户名是否可以使用
-    QF.get('http://localhost/shangcheng/php/checkusername.php', { username: text }, function (data) {
+    QF.get(xhr.baseUrl+'php/checkusername.php', { username: text }, function (data) {
         console.log(data)
         // 根据结果提示用户
         if (!data.error) {
@@ -101,7 +101,7 @@ submitBtn.onclick = function () {
     // console.log(pass)
 
     // 弹出一个面板 这个面板中就一个loading图
-    QF.post("http://localhost/shangcheng/php/regist.php", { username: user, password: pass }, function (data) {
+    QF.post(xhr.baseUrl+"php/regist.php", { username: user, password: pass }, function (data) {
         console.log(data)
         if (!data.error) {
             

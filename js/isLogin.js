@@ -5,7 +5,7 @@ function outLogin(){
     //清除用户购物车数据
     localStorage.removeItem('cart_info');
     setTimeout(()=>{
-        location.href = "http://localhost/shangcheng/index.html";
+        location.href = xhr.baseUrl+"index.html";
     },500)
 }
 ;(function(){
@@ -16,7 +16,7 @@ function outLogin(){
         alert("你还未登录");
         //重定向到登录页
         setTimeout(()=>{
-            location.href = "http://localhost/shangcheng/index.html";
+            location.href = xhr.baseUrl+"index.html";
         },500)
     }
 console.log('111',$('#userInfo'),loginInfo)
