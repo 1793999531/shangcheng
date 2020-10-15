@@ -1,0 +1,68 @@
+header {
+    height: 100px;
+    margin-bottom: 100px;
+}
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 600px;
+    height: 200px;
+    border: 2px solid #ccc;
+    margin: 100px auto;
+}
+
+.item {
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.item label {
+    flex: 2;
+    text-align: right;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.item input {
+    flex: 5;
+}
+
+.item span {
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+}
+
+.submit {
+    text-align: center;
+}
+
+.submit button {
+    width: 150px;
+    height: 30px;
+    background-color: pink;
+    border-color: pink;
+    color: white;
+}
+
+.panel {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-left: -200px;
+    margin-top: -200px;
+    display: none;
+}
+
+.panel img {
+    width: 100%;
+    height: 100%;
+} */

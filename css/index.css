@@ -1,0 +1,11 @@
+.tishi {
+    float: right;
+    right: 0px;
+    position: absolute;
+    color: red;
+    display: none;
+}
+
+.yanzhengkuang {
+    display: none;
+}
