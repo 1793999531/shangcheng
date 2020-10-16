@@ -19,7 +19,7 @@ function outLogin(){
             location.href = xhr.baseUrl+"index.html";
         },500)
     }
-console.log('111',$('#userInfo'),loginInfo)
+// console.log('111',$('#userInfo'),loginInfo)
     //给当前网页设置右上角的用户信息
     if($('#userInfo')){
         let str = `欢迎你！<span >${loginInfo.username}</span>|<a href="javascript:outLogin()">退出登录</a>`
