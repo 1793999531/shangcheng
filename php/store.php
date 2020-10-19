@@ -5,7 +5,7 @@
     $username = $_GET["username"];
     $password = $_GET["password"];
     //连接数据库
-    mysql_connect("localhost","root","admin");
+    mysql_connect("localhost","root","root");
     mysql_select_db("phpdb");
     $queryString = "select * from user where username = '$username' and password = '$password'";
     //获取查询结果

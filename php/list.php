@@ -3,7 +3,7 @@
     header("content-type: text/html;charset=utf-8");
 
     //连接数据库
-    mysql_connect("localhost","root","admin");
+    mysql_connect("localhost","root","root");
     mysql_select_db("phpdb");
         
     $num = $_GET["num"];
