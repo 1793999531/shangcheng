@@ -38,7 +38,5 @@ var xhr = {
         xhr.setRequestHeader("content-type", "application/x-www-form-urlencoded");
         xhr.send(dataStr);
     },
-    // baseUrl: "http://www.lpllfd.cn:5000/shangcheng/"
-    baseUrl: "http://localhost/shangcheng/"
-
+    baseUrl: "http://www.lpllfd.cn:5000/shangcheng/"
 }
