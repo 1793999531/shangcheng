@@ -1,0 +1,1 @@
+"use strict";!function(){var n=location.href.split("?")[1].split("=")[1];xhr.get(xhr.baseUrl+"php/list.php",function(t){t=t.data;console.log(t[n]),document.body.innerHTML=t[n][6]})}();
