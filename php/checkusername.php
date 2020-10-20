@@ -2,7 +2,7 @@
     // 1 接收前端发送的数据
     $username = $_GET["username"];
     // 2 连接数据库
-    mysql_connect("localhost", "root", "admin");
+    mysql_connect("localhost", "root", "root");
     // 3 选择数据库
     mysql_select_db("phpdb");
     // 4 定义sql语句

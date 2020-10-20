@@ -6,7 +6,7 @@
 
 
     // 2 连接数据库
-    mysql_connect("localhost", "root", "admin");
+    mysql_connect("localhost", "root", "root");
 
     // 3 选择数据库
     mysql_select_db("phpdb");

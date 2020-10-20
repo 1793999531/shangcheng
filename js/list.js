@@ -162,7 +162,6 @@
                     <span aria-hidden="true" class="rightBtn">&raquo;</span>
                 </a>
             </li>
-            <li><a href="#">${45}</a></li>
             `
         pagination.innerHTML = html;
         let arr = pagination.getElementsByTagName("a");

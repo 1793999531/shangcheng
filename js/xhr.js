@@ -4,7 +4,7 @@ var xhr = {
 
         xhr.onreadystatechange = function() {
             if (xhr.readyState == 4 && xhr.status == 200) {
-                // console.log(xhr.responseText);
+                console.log(xhr.responseText);
 
                 var data = JSON.parse(xhr.responseText);
                 // console.log(data)
@@ -26,9 +26,9 @@ var xhr = {
         var xhr = new XMLHttpRequest();
         xhr.onreadystatechange = function() {
             if (xhr.readyState == 4) {
-                // console.log(xhr.responseText);
-
-                var data = JSON.parse(xhr.responseText);
+                console.log(xhr.responseText);
+                var data = "ok";
+                // var data = JSON.parse(xhr.responseText);
                 if (callback) {
                     callback(data);
                 }
