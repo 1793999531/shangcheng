@@ -1,4 +1,5 @@
 <?php
+    header("Access-Control-Allow-Origin: *"); 
     header("content-type: text/html;charset=utf-8");
     // 1 接收前端传递过来的数据 
     $username = $_POST["username"];

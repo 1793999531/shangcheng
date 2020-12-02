@@ -8,7 +8,7 @@
         
     @$num = $_GET["num"]; //@：如果获取不到Num不返回提示或错误信息
     @$page = $_GET["page"];
-    $detaiID = $_GET["detailID"]; //获取详情页请求ID
+    @$detaiID = $_GET["detailID"]; //获取详情页请求ID
     if($num && $page!=""){
         // $queryString = "select * from goods limit ".$page*$num.",".($page*$num+$num); //发送n~m之间的数据
         $queryString = "select * from goods limit ".$page*$num.",".$num; //去第$page*$num行开始拿$num个数据

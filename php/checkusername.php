@@ -1,4 +1,6 @@
 <?php
+    header("Access-Control-Allow-Origin: *"); 
+    header("content-type: text/html;charset=utf-8");
     // 1 接收前端发送的数据
     $username = $_GET["username"];
     // 2 连接数据库
